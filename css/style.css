@@ -1,0 +1,189 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	height: 120px;
+	border-bottom: 10px solid #f8ff00;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	width: 40%;
+	font-family: 'merriweather', serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #f8ff00;
+	padding: 20px 0px;
+/*	margin: 20px 0px;*/
+}
+
+.container {
+	margin: 0 auto;
+	width: 93%;
+}
+
+nav {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+.nav-link {
+	color: white;
+    margin-left: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+strong {
+	font-family: 'oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: .07em;
+	text-transform: uppercase;
+}
+
+/****************************
+
+GREY BOX
+
+***************************/
+
+#greybox {
+	background-color: #c6c6c6;
+	text-align: center;
+	height: 80px;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+	padding-top: 27px;
+}
+
+#hero {
+	background: url(../images/coworking.jpg) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	background-position: 0px -50px,
+                         center;;
+    float: right;
+}
+
+.call-to-action {
+	background-color: rgba(255, 255, 255, .8);
+	padding: 30px 30px 30px 31px;
+	width: 26.5%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.right-side-box {
+	border: 1px solid #313131;
+	margin: 25px 0px 0px 610px;
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro' sans-serif; 
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	padding: 10px 0px;
+}
+
+h3.serif {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	font-weight: 700;
+/*	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	padding: 10px 0px;*/
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+.button {
+	border-radius: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.0em;
+	color: #003048;
+	padding: 12px 0;
+  	width: 100%;
+	display: block;
+	margin: 40px auto;
+	text-align: center;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.yellow {
+  background: #f8ff00;
+  color: #033048;
+}
+.grey{
+  background: #c6c6c6;
+  color: #fff;
+}
+
+/****************************
+
+BOTTOM SECTION
+
+***************************/
+
+#bottom-promos {
+	display: inline-block;
+	width: 100%;
+/*	clear: both;*/
+/*	width: 33.3%;*/
+/*	float: left;*/
+}	
+
+.button-bottom {
+	color: #333;
+}
+
+.vertical-line {
+	background: url(../images/rule.png) no-repeat;
+	background-position: 0px 30px,
+                         center;;
+}
+
+
+/****************************
+
+FOOTER
+
+***************************/
+
+
+footer{
+	height: 50px;
+	background-color: black;
+	text-align: left;
+	color: #999;
+	padding-top: 30px;
+	padding-left: 35px;
+	margin-bottom: 30px;
+}
+
+
+
